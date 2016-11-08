@@ -24,4 +24,4 @@
 
 cd lol_game
 
-python3 lol.py 0 p
+blenderplayer LandOfLove.blend

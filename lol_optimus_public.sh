@@ -24,4 +24,4 @@
 
 cd lol_game
 
-python3 lol.py 1 p
+primusrun blenderplayer LandOfLove.blend
