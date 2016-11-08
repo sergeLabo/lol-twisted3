@@ -17,7 +17,7 @@ En terminal:
 #### Installation de twisted pour python 3.x
 Les sources de twisted comprennent les versions pour python2 et python3.
 
-#####Avec Git
+##### Avec Git
 Dans votre dossier projets, ouvrir un terminal:
  git clone https://github.com/twisted/twisted.git
  cd twisted
@@ -53,16 +53,9 @@ All sripts are under GNU General Public License Version 2
 ### Comment lancer LandOfLove ?
 Ouvrir un terminal dans le dossier lol
 
-##### Uniquement pour le développeur de ce jeu
-* ./lol_local.sh
-* ./lol_optimus_local.sh
-
-##### Pour tous
-* ./lol_public.sh
-* ./lol_optimus_public.sh
-
-Vous devez quitter le jeu avec E
-sinon des processus python vont continuer à tourner.
+ ./lol_public.sh
+ou
+ ./lol_optimus_public.sh
 
 ### Help
 
@@ -96,7 +89,6 @@ Dans le *.blend, le moteur de rendu doit être Blender Game, puis dans la fenêt
 * [Primusrun sur Arch wiki](https://wiki.archlinux.org/index.php/bumblebee#Primusrun)
 
 ### Bug
-Ce n'est pas difficile d'en trouver !
 
 ### Bonus: vérification de la prise en charge de l'AA par la carte Nvidia
 Réglage de l'AA dans le .blend à 0 puis:
@@ -128,21 +120,6 @@ vient de blender. Avec:
 * AA Samples = 8x
 il n'y a plus d'erreur !
 
-#### Nvidia Settings
-
-optirun -b none nvidia-settings -c :8
-
-La gestion PowerMixer Adaptative Mode marche, mais Antialiasing Settings ne modifie pas l'AA
-
-### Détails
-#### IRC
-Le bot IRC utilise:
-
-* [irc](https://github.com/jaraco/irc)
-
-qui a comme dépendance:
-
-* [jaraco.stream](https://github.com/jaraco/jaraco.stream)
 
 ### Merci à
 * Labomedia
