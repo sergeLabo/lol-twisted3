@@ -5,13 +5,14 @@ Un cube à l'ouverture de Blender,ici des cubes ...
 ![Land of Love](https://github.com/sergeLabo/lol/blob/master/Lol_1.png?raw=true)
 
 ###  Installation:
-Tester sur Debian Jessie 8.5:
+Sur Debian Jessie 8.5:
+
 * Blender 2.72
 * Python 3.4
 
 #### Blender
 En terminal:
-* sudo apt-get install blender
+ sudo apt-get install blender
 
 
 #### Installation de twisted pour python 3.x
@@ -19,13 +20,16 @@ Les sources de twisted comprennent les versions pour python2 et python3.
 
 ##### Avec Git
 Dans votre dossier projets, ouvrir un terminal:
+
  git clone https://github.com/twisted/twisted.git
  cd twisted
  sudo python3 setup.py install
 
 #####En téléchargeant le zip
  https://github.com/twisted/twisted/archive/trunk.zip
+ 
 Décompresser, dans le dossier:
+
  sudo python3 setup.py install
 
 ### Documentation
@@ -124,4 +128,3 @@ il n'y a plus d'erreur !
 ### Merci à
 * Labomedia
 * Olivier B pour la première version en réseau
-* Olivier T pour le téléchargement d'un fichier en ftp

@@ -32,3 +32,4 @@ buildozer/
 # other other
 /lol_test/
 /lol_server/nohup.out
+*.sqlite

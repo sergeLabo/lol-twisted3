@@ -167,11 +167,10 @@ class IrcTwistedFactory(protocol.ClientFactory):
         reactor.stop()
 
 
-def main():
+def main(u):
     set_variable()
 
     # l local p public
-    u = "l"
     if u == "l":
         url = "http://192.168.1.18:8080/land.sqlite"
     elif u == "p":
@@ -318,4 +317,4 @@ def irc_thread():
     irc_thread.start()
 
 
-main()
+main("p")
