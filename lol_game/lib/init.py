@@ -45,7 +45,7 @@ from twisted.words.protocols import irc
 from twisted.internet import reactor, protocol
 from twisted.python import log
 
-from lib.labtools.point_is_valid_old import point_is_valid
+from lib.labtools.point_is_valid import point_is_valid
 
 
 def create_nick():
