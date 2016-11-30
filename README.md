@@ -54,7 +54,7 @@ sudo python3 setup.py install
 
 ### Documentation
 
-[Le wiki de ce projet sur Github](https://github.com/sergeLabo/lol/wiki)
+[Le wiki de ce projet sur Github](https://github.com/sergeLabo/lol-twisted3/wikii)
 
 
 ### License
