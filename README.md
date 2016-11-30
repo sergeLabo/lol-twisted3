@@ -2,14 +2,11 @@
 
 Un cube à l'ouverture de Blender,ici des cubes ...
 
-![Land of Love](https://github.com/sergeLabo/lol/blob/master/Lol_1.png?raw=true)
+![Land of Love](https://raw.githubusercontent.com/sergeLabo/lol-twisted3/master/Lol_1.png)
 
 ### TODO
 
-irc avec twisted 3 sur server
-
-nettoyé le readme pour optimus
-
+* irc avec twisted 3 sur server
 
 ###Testé sur:
 
@@ -23,13 +20,13 @@ sudo apt-get install blender
 ~~~
 
 #### Installation de twisted pour python 3
-#### Dépendances
+##### Dépendances
 
 ~~~text
  sudo apt-get install python3-dev python3-setuptools
 ~~~
 
-#### Install
+##### Install
 
 Les sources de twisted comprennent les versions pour python2 et python3.
 
@@ -54,7 +51,7 @@ sudo python3 setup.py install
 
 ### Documentation
 
-[Le wiki de ce projet sur Github](https://github.com/sergeLabo/lol-twisted3/wikii)
+[Le wiki de ce projet sur Github](https://github.com/sergeLabo/lol-twisted3/wiki)
 
 
 ### License
@@ -94,8 +91,7 @@ ou
 * Vue de dessus: activation NumPad 4, désactivation NumPad 6
 
 ### Anti Aliasing avec Optimus
-#### FSAA
-##### Documentation
+#### Documentation
 
 * [Bumblebee-Project Nvidia antialiasing 272](https://github.com/Bumblebee-Project/Bumblebee/issues/272)
 * [Bumblebee-Project Nvidia antialiasing 296](https://github.com/Bumblebee-Project/Bumblebee/issues/296)
@@ -111,38 +107,6 @@ Dans le *.blend, le moteur de rendu doit être Blender Game, puis dans la fenêt
 #### Primusrun vs optirun
 
 * [Primusrun sur Arch wiki](https://wiki.archlinux.org/index.php/bumblebee#Primusrun)
-
-### Bug
-
-### Bonus: vérification de la prise en charge de l'AA par la carte Nvidia
-Réglage de l'AA dans le .blend à 0 puis:
-* export FSAA_MODE=7
-* primusrun blender
-
-Pas d'AA !! La carte Nvidia ne prends pas en charge l'AA avec bumblebee
-
-### Valeur maximum pour l'AA
-####SAA_MODE=14
-    pierre@PC01:~$ export FSAA_MODE=14
-    pierre@PC01:~$ primusrun blender
-    ...
-    /build/blender-5_gB1L/blender-.b+dfsg0/intern/ghost/intern/GHOST_WindowX11.cpp:253: oversampling requested 16 but using 8 samples
-    ...
-
-#### FSAA_MODE=7
-    pierre@PC01:~$ export FSAA_MODE=7
-    pierre@PC01:~$ primusrun blender
-    ...
-    /build/blender-5_gB1L/blender-.b+dfsg0/intern/ghost/intern/GHOST_WindowX11.cpp:253: oversampling requested 16 but using 8 samples
-    ...
-
-La valeur
-
-    oversampling requested 16 but using 8 samples
-
-vient de blender. Avec:
-* AA Samples = 8x
-il n'y a plus d'erreur !
 
 
 ### Merci à
