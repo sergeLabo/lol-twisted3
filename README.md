@@ -8,7 +8,7 @@ Un cube à l'ouverture de Blender,ici des cubes ...
 
 * irc avec twisted 3 sur server
 
-###Testé sur:
+### Testé sur
 
 Debian Jessie 8.3 avec Blender 2.72
 
@@ -23,7 +23,7 @@ sudo apt-get install blender
 ##### Dépendances
 
 ~~~text
- sudo apt-get install python3-dev python3-setuptools
+sudo apt-get install python3-dev python3-setuptools
 ~~~
 
 ##### Install
@@ -47,7 +47,6 @@ git clone https://github.com/twisted/twisted.git
 cd twisted
 sudo python3 setup.py install
 ~~~
-
 
 ### Documentation
 
@@ -73,10 +72,13 @@ All sripts are under GNU General Public License Version 2
 
 ### Comment lancer LandOfLove ?
 Ouvrir un terminal dans le dossier lol
-
+~~~text
  ./lol_public.sh
+~~~
 ou
+~~~text
  ./lol_optimus_public.sh
+~~~
 
 ### Help
 
