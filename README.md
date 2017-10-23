@@ -48,6 +48,9 @@ cd twisted
 sudo python3 setup.py install
 ~~~
 
+######
+ sudo pip3 install twisted
+
 ### Documentation
 
 [Le wiki de ce projet sur Github](https://github.com/sergeLabo/lol-twisted3/wiki)

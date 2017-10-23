@@ -172,7 +172,7 @@ def main(u):
 
     # l local p public
     if u == "l":
-        url = "http://192.168.1.18:8080/land.sqlite"
+        url = "http://192.168.1.7:8080/land.sqlite"
     elif u == "p":
         url = "http://jeuxlibres.org:8080/land.sqlite"
     else:
